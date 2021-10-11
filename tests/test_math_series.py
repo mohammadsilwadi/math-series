@@ -18,7 +18,7 @@ def test_tow():
     expected = 18
     # assert : check if the output is as expected
     assert actual == expected
-def test_there():
+def test_three():
     # assign : assign value inside the function
     actual = sum_series(6)
     # arrange : what output do i expect to get
