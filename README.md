@@ -7,3 +7,4 @@
 [x]Calling it with the optional arguments 2 and 1 will produce values from the lucas numbers.
 
 
+##  [Pull Request Link](https://github.com/mohammadsilwadi/snakes-cafe/pull/1)
