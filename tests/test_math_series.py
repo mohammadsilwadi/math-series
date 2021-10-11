@@ -1,13 +1,20 @@
 from math_series import __version__
-from math_series.math_series import fibonacci
+from math_series.math_series import fibonacci,lucas_numbers
 
 def test_version():
     assert __version__ == '0.1.0'
 
 def test_one():
-    # assign => what is the output that i resive
+    # assign : assign value inside the function
     actual = fibonacci(6)
-    # arrange => what output do i expect to get
+    # arrange : what output do i expect to get
     expected = 8
-    # assert => check if the output is as expected
+    # assert : check if the output is as expected
+    assert actual == expected
+def test_tow():
+    # assign : assign value inside the function
+    actual = lucas_numbers(6)
+    # arrange : what output do i expect to get
+    expected = 18
+    # assert : check if the output is as expected
     assert actual == expected
