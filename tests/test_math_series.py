@@ -11,3 +11,24 @@ def test_one():
     expected = 8
     # assert : check if the output is as expected
     assert actual == expected
+def test_tow():
+    # assign : assign value inside the function
+    actual = lucas_numbers(6)
+    # arrange : what output do i expect to get
+    expected = 18
+    # assert : check if the output is as expected
+    assert actual == expected
+def test_three():
+    # assign : assign value inside the function
+    actual = sum_series(6)
+    # arrange : what output do i expect to get
+    expected = 8
+    # assert : check if the output is as expected
+    assert actual == expected
+def test_four():
+    # assign : assign value inside the function
+    actual = sum_series(6,3,4)
+    # arrange : what output do i expect to get
+    expected = 18
+    # assert : check if the output is as expected
+    assert actual == expected
