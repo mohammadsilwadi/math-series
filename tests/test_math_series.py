@@ -32,3 +32,17 @@ def test_four():
     expected = 18
     # assert : check if the output is as expected
     assert actual == expected
+def test_five():
+    # assign : assign value inside the function
+    actual = sum_series(5)
+    # arrange : what output do i expect to get
+    expected = 5
+    # assert : check if the output is as expected
+    assert actual == expected
+def test_six():
+    # assign : assign value inside the function
+    actual = sum_series(5,3,4)
+    # arrange : what output do i expect to get
+    expected = 11
+    # assert : check if the output is as expected
+    assert actual == expected
